@@ -58,8 +58,7 @@ console.log(result2)
 // 입력값 :
 // 출력값 :
 
-const lottoArr = []
-makeLotto(lottoArr)
+
 
 function makeLotto(arr) {
     for (let i = 0; i < 6; i++) {
@@ -72,7 +71,13 @@ function makeLotto(arr) {
         }
     }
     console.log(arr)
+    return arr
 }
+
+const lottoArr = []
+LottoArr = makeLotto(lottoArr)
+console.log(LottoArr)
+
 
 
 // - 매출/월
